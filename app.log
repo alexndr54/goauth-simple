@@ -1,0 +1,28 @@
+{"host":"localhost","idle":"5","level":"info","lifetime":"1","maxIdle":"20","maxOpen":"100","msg":"Blank Value","name":"autentikasi1","port":"3306","time":"2025-02-09T00:17:21+07:00","user":""}
+{"level":"fatal","msg":"Periksa lagi pengaturan database di file .env, Pastikan tidak ada yang kosong, atau tidak sesuai yang di minta","time":"2025-02-09T00:17:21+07:00"}
+{"host":"localhost","idle":"5","level":"info","lifetime":"1","maxIdle":"20","maxOpen":"100","msg":"Blank Value","name":"autentikasi1","port":"3306","time":"2025-02-09T00:18:38+07:00","user":""}
+{"level":"fatal","msg":"Periksa lagi pengaturan database di file .env, Pastikan tidak ada yang kosong, atau tidak sesuai yang di minta","time":"2025-02-09T00:18:38+07:00"}
+{"host":"localhost","idle":"5","level":"info","lifetime":"1","maxIdle":"20","maxOpen":"100","msg":"Blank Value","name":"autentikasi1","port":"3306","time":"2025-02-09T00:20:54+07:00","user":""}
+{"level":"fatal","msg":"Periksa lagi pengaturan database di file .env, Pastikan tidak ada yang kosong, atau tidak sesuai yang di minta","time":"2025-02-09T00:20:54+07:00"}
+{"level":"fatal","msg":"Panic Message Custom:DB_SetConnMaxIdleTime hanya boleh angka\nError Message:strconv.Atoi: parsing \"fuck\": invalid syntax","time":"2025-02-09T00:21:17+07:00"}
+{"level":"fatal","msg":"(DB_SetConnMaxIdleTime hanya boleh angka::strconv.Atoi: parsing \"fuck\": invalid syntax)","time":"2025-02-09T00:22:13+07:00"}
+{"level":"fatal","msg":"PANIC (DB_SetConnMaxIdleTime hanya boleh angka::strconv.Atoi: parsing \"fuck\": invalid syntax)","time":"2025-02-09T00:22:31+07:00"}
+{"level":"fatal","msg":"PANIC (DB_SetConnMaxIdleTime hanya boleh angka::strconv.Atoi: parsing \"fuck\": invalid syntax)","time":"2025-02-09T00:23:17+07:00"}
+{"level":"fatal","msg":"\n\nPANIC (DB_SetConnMaxIdleTime hanya boleh angka::strconv.Atoi: parsing \"fuck\": invalid syntax)","time":"2025-02-09T00:24:11+07:00"}
+{"level":"fatal","msg":"PANIC (DB_SetConnMaxIdleTime hanya boleh angka::strconv.Atoi: parsing \"fuck\": invalid syntax)","time":"2025-02-09T00:24:44+07:00"}
+{"host":"localhost","idle":"5","level":"info","lifetime":"1","maxIdle":"20","maxOpen":"100","msg":"Blank Value","name":"autentikasi1","port":"3306","time":"2025-02-09T00:25:26+07:00","user":""}
+{"level":"fatal","msg":"Periksa lagi pengaturan database di file .env, Pastikan tidak ada yang kosong, atau tidak sesuai yang di minta","time":"2025-02-09T00:25:26+07:00"}
+{"level":"fatal","msg":"Redishost/redisPort tidak boleh kosong, Cek .env file","time":"2025-02-09T12:27:31+07:00"}
+{"level":"fatal","msg":"Redishost/redisPort tidak boleh kosong, Cek .env file","time":"2025-02-09T12:28:06+07:00"}
+{"level":"fatal","msg":"Redishost/redisPort tidak boleh kosong, Cek .env file","time":"2025-02-09T12:28:50+07:00"}
+{"level":"fatal","msg":"Redishost/redisPort tidak boleh kosong, Cek .env file","time":"2025-02-09T12:29:57+07:00"}
+{"level":"fatal","msg":"PANIC (REDIS_PORT hanya boleh angka,cek file .env::strconv.Atoi: parsing \"\": invalid syntax)","time":"2025-02-09T12:31:48+07:00"}
+{"level":"fatal","msg":"PANIC (REDIS_PORT hanya boleh angka,cek file .env::strconv.Atoi: parsing \"\": invalid syntax)","time":"2025-02-09T12:32:16+07:00"}
+{"level":"fatal","msg":"PANIC (REDIS_PORT hanya boleh angka,cek file .env::strconv.Atoi: parsing \"\": invalid syntax)","time":"2025-02-09T12:33:09+07:00"}
+{"level":"fatal","msg":"dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.","time":"2025-02-09T12:33:34+07:00"}
+{"level":"fatal","msg":"REDIS_HOST \u0026 REDIS_PORT tidak boleh kosong,cek file .env","time":"2025-02-09T12:34:36+07:00"}
+{"level":"fatal","msg":"dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.","time":"2025-02-09T12:34:44+07:00"}
+{"level":"fatal","msg":"PANIC (Terjadi kesalahan ketika load godotenv::unexpected character \"\\n\" in variable name near \"SITE_\\n\\n# PENGATURAN DATABASE\\nDB_HOST=localhost\\nDB_PORT=3306\\nDB_NAME=autentikasi1\\nDB_USERNAME=root\\nDB_PASSWORD=\\n\\n# SetMaxIdleConns digunakan untuk mengatur jumlah koneksi yang tidak sedang\\n# digunakan tetapi masih terbuka dan siap digunakan\\n#\\n# SetMaxOpenConns = jumlah maksimal koneksi yang dibuka\\n# SetConnMaxIdleTime = maksimal waktu tunggu koneksi yang tidak aktif.\\n# dalam satuan menit ,misal: 5\\n#\\n# SetConnMaxLifetime = waktu maksimal koneksi akan ditutup jika tidak digunakan\\n# dalam satuan jam,Misal: 1\\nDB_SetMaxIdleConns=20\\nDB_SetMaxOpenConns=100\\nDB_SetConnMaxIdleTime=5\\nDB_SetConnMaxLifetime=1\\n\\n# PENGATURAN REDIS\\nREDIS_HOST=127.0.0.1\\nREDIS_PORT=6379\\nREDIS_USERNAME=\\nREDIS_PASSWORD=\\nREDIS_DATABASE=0 #default 0\\n\\n\")","time":"2025-02-09T13:01:02+07:00"}
+{"host":"","idle":"","level":"info","lifetime":"","maxIdle":"","maxOpen":"","msg":"Blank Value","name":"","port":"","time":"2025-02-09T18:18:28+07:00","user":""}
+{"level":"fatal","msg":"Periksa lagi pengaturan database di file .env, Pastikan tidak ada yang kosong, atau tidak sesuai yang di minta","time":"2025-02-09T18:18:28+07:00"}
+{"level":"fatal","msg":"dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.","time":"2025-02-10T11:36:42+07:00"}

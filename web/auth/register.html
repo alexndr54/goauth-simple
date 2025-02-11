@@ -1,0 +1,43 @@
+<div class="container">
+    <h1>{{ .PageTitle }}</h1>
+    <form id="registerForm">
+        <div class="form-group">
+            <label for="fullname">Nama</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="password1">Password</label>
+            <input type="password" id="password1" name="password1" required>
+        </div>
+        <div class="form-group">
+            <label for="password2">Konfirmasi Password</label>
+            <input type="password" id="password2" name="password2" required>
+        </div>
+
+        {{ if .Optional.RecapthcaSiteKey }}
+        <button class="g-recaptcha btn btn-block"
+                data-sitekey="{{ .Optional.RecapthcaSiteKey }}"
+                data-callback='onSubmit'
+                data-action='submit' type="button" id="register">Register</button>
+        {{ else }}
+        <button type="button" class="btn btn-block" id="register" onclick="onSubmit()">Register</button>
+        {{ end }}
+    </form>
+    <p class="text-center mt-3">Sudah punya akun? <a href="login">Login</a></p>
+</div>
+
+<script>
+
+    function onSubmit() {
+        request("/ajax/auth/register", "registerForm", "register",
+            function (data) {
+                setTimeout( () => {
+                    location.replace("login");
+                },2500)
+            })
+    }
+</script>

@@ -1,0 +1,6 @@
+{"host":"","idle":"","level":"info","lifetime":"","maxIdle":"","maxOpen":"","msg":"Blank Value","name":"","port":"","time":"2025-02-09T14:39:25+07:00","user":""}
+{"level":"fatal","msg":"Periksa lagi pengaturan database di file .env, Pastikan tidak ada yang kosong, atau tidak sesuai yang di minta","time":"2025-02-09T14:39:25+07:00"}
+{"host":"","idle":"","level":"info","lifetime":"","maxIdle":"","maxOpen":"","msg":"Blank Value","name":"","port":"","time":"2025-02-09T14:41:46+07:00","user":""}
+{"level":"fatal","msg":"Periksa lagi pengaturan database di file .env, Pastikan tidak ada yang kosong, atau tidak sesuai yang di minta","time":"2025-02-09T14:41:46+07:00"}
+{"host":"","idle":"","level":"info","lifetime":"","maxIdle":"","maxOpen":"","msg":"Blank Value","name":"","port":"","time":"2025-02-09T14:42:00+07:00","user":""}
+{"level":"fatal","msg":"Periksa lagi pengaturan database di file .env, Pastikan tidak ada yang kosong, atau tidak sesuai yang di minta","time":"2025-02-09T14:42:00+07:00"}

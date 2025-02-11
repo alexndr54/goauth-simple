@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>{{ .PageTitle }}</h1>
+    <form id="loginForm">
+        {{ if .Optional.error }}
+            <div style="color: red;text-align: center; font-size: x-large">{{ .Optional.error }}</div>
+        {{ else }}
+            <h3>Mohon tunggu, kami akan segera mengarahkan anda ke halaman dashboard......</h3>
+            <script>
+                setTimeout(() => {
+                    location.replace("/app/home")
+                }, 5000);
+            </script>
+        {{ end }}
+
+    </form>
+    <p class="text-center mt-3">Belum punya akun? <a href="register">Register</a></p>
+    <p class="text-center"><a href="reset-password">Lupa password?</a></p>
+</div>
